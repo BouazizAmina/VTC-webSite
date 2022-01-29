@@ -15,12 +15,15 @@ nav{
 .links>li{
     line-height: 19px;
 }
-.btn-sm{
+.btn{
     background-color: #f26659;
     color: white;
 }
+.dm{
+    background-color: #8ca9d3;
+}
 .btn:hover{
-    background-color: #ebc999;
+    background-color: #cabdaa;
 }
 footer {
     background-color: #8ca9d3;
@@ -54,11 +57,11 @@ video{
     opacity: 0.5;
 }
 .centered {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: #584d3d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #584d3d;
 }
 .centered h6{
     font-size: 25px;
@@ -68,15 +71,25 @@ color: #584d3d;
     font-size: 50px;
     font-weight: bold;
 }
-.demande{
-    background-color: #ebc999;
-    color: white;
-}
 .search{
-    background-color: #f26659;
+    background-color: #8ca9d3;
     margin: 0 5% 0 5% ;
     padding: 2% 2% 2% 2%;
 }
-.titreAnnonce{
-    color: #ebc999;
+.titleAnnonce{
+    color: #f0eff4;
+}
+.titleCard{
+    color: #f26659;
+}
+.profil{
+    color: #f0eff4;
+}
+.profil:hover{
+    color: #f26659;
+}
+
+.status{
+    background-color: #f26659;
+    color: #f0eff4;
 }

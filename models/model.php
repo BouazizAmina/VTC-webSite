@@ -20,5 +20,15 @@ class model{
         $conn=null;
     }
 
+    function getWilayaModel(){
+        $conn = $this -> connexion();
+        $request = "SELECT * FROM `wilaya`";
+        $stmt = $conn->prepare($request);
+        $stmt->execute();
+        $wil = $stmt->fetchAll();
+        // echo $wil[1];
+        return $wil;
+    }
+
 }
 ?>
